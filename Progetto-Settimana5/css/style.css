@@ -3,8 +3,6 @@
 }
 
 body {
-    /* background-color: #ffbe0b; */
-    /*background-color: #d9d0de;*/
     background-color: #8761ff;
 }
 
@@ -14,13 +12,6 @@ body {
 }
 
 h1 {
-    /* width: 50%;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 2.5em;
-    margin-top: 0;
-    margin-bottom: 1em;
-    background: linear-gradient(225deg, rgba(20, 22, 136, 1) 0%, rgba(181, 20, 189, 1) 50%, rgba(255, 175, 0, 1) 100%); */
     color: #fff;
     font-size: 5em;
     position: absolute;
@@ -28,19 +19,16 @@ h1 {
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    /*text-transform: uppercase;*/
     text-align: center;
     margin-left: 30%;
 }
 
 h1:nth-child(1) {
     color: transparent;
-    /*-webkit-text-stroke: 2px #2c3b8ddc;*/
     -webkit-text-stroke: 2px #da1b60;
 }
 
 h1:nth-child(2) {
-    /*color: #03a9f4;*/
     color: #ff8a00;
     animation: animate 4s ease-in-out infinite;
 }
@@ -50,9 +38,7 @@ h1:nth-child(2) {
     width: 100%;
     border-radius: 30px;
     margin: 7em auto 0;
-    /*background: linear-gradient(225deg, rgba(20, 22, 136, 1) 0%, rgba(181, 20, 189, 1) 50%, rgba(255, 175, 0, 1) 100%);*/
     box-shadow: 0px 0px 20px 6px #000000;
-    /*background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 70%)*/
     background-image: linear-gradient(to top left, #ff8a00, #da1b60);
 }
 
@@ -63,9 +49,7 @@ h1:nth-child(2) {
     border-radius: 30px;
     width: 30%;
     margin: 2em auto;
-    /*background: linear-gradient(225deg, rgba(20, 22, 136, 1) 0%, rgba(181, 20, 189, 1) 50%, rgba(255, 175, 0, 1) 100%);*/
     box-shadow: 0px 0px 20px 6px #000000;
-    /*background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 70%)*/
     background-image: linear-gradient(to top left, #ff8a00, #da1b60);
 }
 
